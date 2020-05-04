@@ -27,6 +27,7 @@ const getTemp = cityName => {
 const MainBox = ({ cityName }) => {
   const dispatch = useDispatch();
 
+  //Assuming for now that there is no nedd for input check, need to ask
   const [temp, changeTemp] = useState();
   return (
     <>
